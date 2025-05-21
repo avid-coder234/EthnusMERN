@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .header {
+            background-color: #2e6a28;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+            width: 150px;
+            margin-bottom: 30px;
+        }
+        
+        .link-container {
+            max-width: 700px;
+            margin: 0 auto 20px;
+            border: 1px solid #ccc;
+            padding: 15px 20px;
+            background-color: #f0f0f0;
+        }
+        
+        .link-title {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: normal;
+        }
+        
+        .link-section {
+            margin-bottom: 10px;
+        }
+        
+        .link-separator {
+            margin: 0 5px;
+            color: #666;
+        }
+        
+        h2 {
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-top: 0;
+            line-height: 1.5;
+            color: #333;
+        }
+        
+        a {
+            color: blue;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">List-Task</div>
+    
+    <div class="link-container">
+        <p class="link-title">Click any of the following links</p>
+        <div class="link-section">
+            <a href="https://example.com" target="_blank">Opens in New</a>
+            <span class="link-separator">|</span>
+            <a href="https://example.com" target="_self">Opens in Self</a>
+            <span class="link-separator">|</span>
+            <a href="https://example.com" target="_parent">Opens in Parent</a>
+            <span class="link-separator">|</span>
+            <a href="https://example.com" target="_body">Opens in Body</a>
+        </div>
+    </div>
+    
+    <div class="link-container">
+        <h2>Link to an Email Address</h2>
+        <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the attribute:</p>
+        <a href="mailto:example@example.com">Send email</a>
+    </div>
+    
+    
+</body>
+</html>

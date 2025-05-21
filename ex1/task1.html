@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Styles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        .header {
+            background-color: #3c7a39;
+            color: white;
+            padding: 10px 20px;
+            font-weight: bold;
+            clip-path: polygon(0 0, 100% 0, 95% 100%, 0 100%);
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        
+        /* First table style */
+        .table-1 {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 700px;
+            margin-bottom: 30px;
+        }
+        
+        .table-1 th, .table-1 td {
+            border: 1px solid white;
+            padding: 8px 15px;
+            text-align: left;
+        }
+        
+        .table-1 th {
+            background-color: #a8e0d9;
+        }
+        
+        .table-1 td {
+            background-color: #a8e0d9;
+        }
+        
+        /* Second table style */
+        .table-2 {
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .table-2 th, .table-2 td {
+            border: 1px solid white;
+            padding: 8px 15px;
+            text-align: left;
+        }
+        
+        .table-2 th {
+            background-color: #a8e0d9;
+            border-radius: 10px;
+        }
+        
+        .table-2 td {
+            background-color: #a8e0d9;
+            border-radius: 10px;
+        }
+        
+        .footer {
+            margin-top: 30px;
+        }
+        
+        .footer img {
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Table-Task</div>
+    
+    <!-- First table style -->
+    <table class="table-1">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <!-- Second table style with rounded corners -->
+    <table class="table-2">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="footer">
+        <!-- Colorful geometric shapes would go here -->
+    </div>
+</body>
+</html>
